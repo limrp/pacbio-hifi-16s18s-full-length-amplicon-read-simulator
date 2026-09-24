@@ -1,0 +1,8 @@
+parameter	value
+marker	18S
+sample_id	M05_18S_SMOKE
+template_count	4
+intended_total_count	40
+master_seed	12345
+threads	4
+mhass_release	v0.1.0
