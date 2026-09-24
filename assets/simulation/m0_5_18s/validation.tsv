@@ -1,0 +1,16 @@
+metric	value
+status	PASS
+run_a_final_reads	20
+run_b_final_reads	20
+run_a_min_length_nt	1798
+run_a_avg_length_nt	1815.2
+run_a_max_length_nt	1848
+intended_copies	40
+template_files	33
+master_seed	12345
+threads	4
+container_image_id	sha256:905a43aefd633ab39e2ba0d4e2a66af4242338b2653ffefe7d531db732726e35
+run_a_fastq_sha256	451da9227959b044475c259f0e70ee935304340d29099000717aa88ada200971
+run_b_fastq_sha256	451da9227959b044475c259f0e70ee935304340d29099000717aa88ada200971
+same_seed_fastq_byte_identical	true
+all_retained_checkpoints_byte_identical	true
