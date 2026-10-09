@@ -1,0 +1,16 @@
+Methanobrevibacter ruminantium
+Methanosarcina mazei
+Methanothrix soehngenii
+Nitrosopumilus maritimus
+Haloferax volcanii
+Methanobrevibacter smithii
+Methanocaldococcus infernus
+Sulfolobus acidocaldarius
+Methanobrevibacter sp. AbM4
+Methanospirillum hungatei
+Bacteroides fragilis
+Bacillus subtilis
+Clostridium acetobutylicum
+Escherichia coli
+Salmonella enterica
+Enterococcus faecalis
