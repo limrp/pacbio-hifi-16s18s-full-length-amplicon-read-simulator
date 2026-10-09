@@ -1,0 +1,17 @@
+organism_id	organism_name	S01	S02	S03
+M1M_ORG001	Methanobrevibacter ruminantium M1	320	896	80
+M1M_ORG002	Methanosarcina mazei Go1	320	320	0
+M1M_ORG003	Methanothrix soehngenii GP6	320	0	0
+M1M_ORG004	Nitrosopumilus maritimus SCM1	320	640	160
+M1M_ORG005	Haloferax volcanii DS2	320	256	0
+M1M_ORG006	Methanobrevibacter smithii ATCC 35061 strain PS	320	64	0
+M1M_ORG007	Methanocaldococcus infernus strain ME	320	64	80
+M1M_ORG008	Sulfolobus acidocaldarius	320	32	0
+M1M_ORG009	Methanobrevibacter sp. AbM4	320	192	320
+M1M_ORG010	Methanospirillum hungatei JF-1	320	160	320
+M1M_ORG011	Bacteroides fragilis NCTC 9343	320	1280	80
+M1M_ORG012	Bacillus subtilis subsp. subtilis strain 168	320	128	0
+M1M_ORG013	Clostridium acetobutylicum ATCC 824	320	32	80
+M1M_ORG014	Escherichia coli K-12 MG1655	320	512	2560
+M1M_ORG015	Salmonella enterica serovar Typhimurium LT2	320	96	1280
+M1M_ORG016	Enterococcus faecalis V583	320	448	160
