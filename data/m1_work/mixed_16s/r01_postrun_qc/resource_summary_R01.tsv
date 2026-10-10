@@ -1,0 +1,8 @@
+metric	value
+samples	947
+mean_cpu_percent	248.63
+max_cpu_percent	385.21
+max_cpu_timestamp	2026-10-01T19:21:16-05:00
+mean_memory_MiB	165.89
+max_sampled_memory_MiB	203.80
+max_memory_timestamp	2026-10-01T19:28:46-05:00

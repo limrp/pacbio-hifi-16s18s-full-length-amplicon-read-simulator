@@ -1,0 +1,8 @@
+a6410432c093f0e5f9a5f9b82fb212df53d2adb6cbb6aa6d98701096226bf7d8  /home/koala/my_projects/pacbio-hifi-amplicon-read-simulator/data/m1_work/mixed_16s/mhass_runs/toyctrl16_test_R01/counts.tsv
+408f3b6fea1557094840b64fd39fc99f2d2ee6a281acb82296e0808046253978  /home/koala/my_projects/pacbio-hifi-amplicon-read-simulator/data/m1_work/mixed_16s/mhass_runs/toyctrl16_test_R01/counts_meta.tsv
+61df22f99b4c37be813464b0d20ee402ccc9575a3d897913556a0394fa4a26de  /home/koala/my_projects/pacbio-hifi-amplicon-read-simulator/data/m1_work/mixed_16s/mhass_runs/toyctrl16_test_R01/sample_barcode_map.tsv
+c4bde2f9476b44c63d72ee07dac294fc3e644617e5a6b1545ef9d2cd83346745  /home/koala/my_projects/pacbio-hifi-amplicon-read-simulator/data/m1_work/mixed_16s/mhass_runs/toyctrl16_test_R01/sequence_file_mapping.tsv
+8d50cdcb70e13303590951c03774671d3a2a146ae3f7862b59fb6329a465b8f9  /home/koala/my_projects/pacbio-hifi-amplicon-read-simulator/data/m1_work/mixed_16s/mhass_runs/toyctrl16_test_R01/combined_reads.fastq
+25e8aaa3eeb64c569418d1556069eb9dac4d2c6639ea36e2216569915ab83377  /home/koala/my_projects/pacbio-hifi-amplicon-read-simulator/data/m1_work/mixed_16s/mhass_runs/toyctrl16_test_R01/mhass_R01.log
+f13edcc275eff9005c684027363f867194c5ab12e7ff9087d6eff37c9207233f  /home/koala/my_projects/pacbio-hifi-amplicon-read-simulator/data/m1_work/mixed_16s/mhass_runs/toyctrl16_test_R01/mhass_R01.wall_time.tsv
+d49ac676ddfb47db5e11fd789eecffe01c2823679f510b80f076fe26abcfdd88  /home/koala/my_projects/pacbio-hifi-amplicon-read-simulator/data/m1_work/mixed_16s/mhass_runs/toyctrl16_test_R01/docker_stats_R01.tsv

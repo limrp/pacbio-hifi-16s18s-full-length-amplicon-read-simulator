@@ -1,0 +1,39 @@
+
+==> STEP 1: Using external count matrix <==
+
+Using external count matrix: /tmp/fixed_counts.tsv
+Validated 20 ASVs across 3 samples
+  S01: 5120 counts
+  S02: 5120 counts
+  S03: 5120 counts
+Copied count matrix to: /output/counts.tsv
+Wrote metadata to: /output/counts_meta.tsv
+
+==> STEP 2: Creating templates <==
+
+Loaded 20 sequences from /tmp/truth_sequences.fasta
+Wrote ASV×Sample×np-to-template mapping to /output/templates/sequence_file_mapping.tsv
+Created 2571 template files in /output/templates
+
+==> STEP 3: Simulating and processing reads in parallel <==
+
+Total template files: 2571, split into 20 chunks across 4 threads
+Simulating reads:   0%|          | 0/2571 [00:00<?, ?it/s]Simulating reads:   5%|▌         | 129/2571 [08:53<2:48:15,  4.13s/it]Simulating reads:  10%|█         | 258/2571 [09:26<1:11:23,  1.85s/it]Simulating reads:  15%|█▌        | 387/2571 [10:07<42:00,  1.15s/it]  Simulating reads:  20%|██        | 516/2571 [21:57<1:38:19,  2.87s/it]Simulating reads:  25%|██▌       | 645/2571 [24:44<1:13:54,  2.30s/it]Simulating reads:  30%|███       | 774/2571 [30:52<1:14:33,  2.49s/it]Simulating reads:  35%|███▌      | 903/2571 [32:30<53:27,  1.92s/it]  Simulating reads:  40%|████      | 1032/2571 [43:56<1:17:02,  3.00s/it]Simulating reads:  45%|████▌     | 1161/2571 [59:32<1:41:51,  4.33s/it]Simulating reads:  50%|█████     | 1290/2571 [1:05:57<1:23:38,  3.92s/it]Simulating reads:  55%|█████▌    | 1419/2571 [1:07:41<56:56,  2.97s/it]  Simulating reads:  60%|██████    | 1547/2571 [1:11:32<44:35,  2.61s/it]Simulating reads:  65%|██████▌   | 1675/2571 [1:13:04<30:30,  2.04s/it]Simulating reads:  70%|███████   | 1803/2571 [1:21:30<33:30,  2.62s/it]Simulating reads:  75%|███████▌  | 1931/2571 [1:25:07<24:57,  2.34s/it]Simulating reads:  80%|████████  | 2059/2571 [1:30:08<20:00,  2.34s/it]Simulating reads:  85%|████████▌ | 2187/2571 [1:33:18<13:20,  2.09s/it]Simulating reads:  90%|█████████ | 2315/2571 [1:33:58<06:37,  1.55s/it]Simulating reads:  95%|█████████▌| 2443/2571 [1:35:47<02:51,  1.34s/it]Simulating reads: 100%|██████████| 2571/2571 [1:37:19<00:00,  1.16s/it]Simulating reads: 100%|██████████| 2571/2571 [1:37:19<00:00,  2.27s/it]
+Combining FASTQ files:   0%|          | 0/2571 [00:00<?, ?it/s]Successfully processed 2571/2571 template files
+
+==> STEP 4: Combining and relabeling CCS reads <==
+
+Found 2571 template directories to process
+Combining FASTQ files:  18%|█▊        | 463/2571 [00:00<00:00, 4628.53it/s]Combining FASTQ files:  36%|███▌      | 926/2571 [00:00<00:00, 2784.33it/s]Combining FASTQ files:  48%|████▊     | 1245/2571 [00:00<00:00, 2156.07it/s]Combining FASTQ files:  59%|█████▊    | 1508/2571 [00:00<00:00, 2279.93it/s]Combining FASTQ files:  73%|███████▎  | 1874/2571 [00:00<00:00, 2654.83it/s]Combining FASTQ files:  84%|████████▍ | 2167/2571 [00:00<00:00, 2660.02it/s]Combining FASTQ files: 100%|██████████| 2571/2571 [00:00<00:00, 2798.88it/s]
+[Done] Combined 10228 records from 2571 FASTQ files into: /output/combined_reads.fastq
+       Reverse complemented 4977 sequences (48.7%)
+
+==> STEP 5: Cleaning up intermediate files <==
+
+Moved sequence mapping file to: /output/sequence_file_mapping.tsv
+Removed templates directory: /output/templates
+Removed sim_reads directory: /output/sim_reads
+
+==> FINISHED <==
+
+Final output: /output/combined_reads.fastq

@@ -1,0 +1,4 @@
+python 3.10.6 | packaged by conda-forge | (main, Aug 22 2022, 20:36:39) [GCC 10.4.0]
+edlib import OK
+Biopython 1.88
+NumPy 2.1.0
